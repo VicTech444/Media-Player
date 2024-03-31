@@ -531,9 +531,3 @@ $progressBar.addEventListener(`click`, (ev) => {
         songInputData.currentTime = progressClickValue;
     }
 })
-
-const placeAssetSong = () => {
-    saveSongsAndEvents(`Sky - Orel Kirilkov`, `Sky`, `Orel Kirilkov`, "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/51/9d/8c/519d8c97-12eb-8744-532e-0b03716f5178/artwork.jpg/400x400cc.jpg", `./assets/lost-in-city-lights-145038.mp3`);
-}
-
-placeAssetSong();
